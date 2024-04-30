@@ -1,0 +1,14 @@
+[
+    {
+        "critical": true,
+        "name": "TB_cli_dml_mgmt_interface.first_test",
+        "result": "pass",
+        "test_duration": 0
+    },
+    {
+        "critical": true,
+        "name": "TB_clear_cable.test_clear_cable_modem_node_delete_no_cable_modems_on_node",
+        "result": "fail",
+        "test_duration": 0.001
+    }
+]

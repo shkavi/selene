@@ -1,0 +1,20 @@
+[
+    {
+        "critical": true,
+        "name": "test.component-test.test_cli_pagination.test_pagination_engine",
+        "result": "pass",
+        "test_duration": 48.1109819412
+    },
+    {
+        "critical": false,
+        "name": "test.component-test.test_config_reflow.test_reflow_ntp_command",
+        "result": "fail",
+        "test_duration": 0.000453233718872
+    },
+    {
+        "critical": true,
+        "name": "test.component-test.test_copy.test_simple_node_copy",
+        "result": "fail",
+        "test_duration": 21.4104881287
+    }
+]

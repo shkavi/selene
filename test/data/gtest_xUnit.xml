@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<testsuites tests="742" failures="12" disabled="0" errors="0" timestamp="2019-09-11T17:47:36" time="23.466" random_seed="99122" name="AllTests">
+  <testsuite name="TB_cli_dml_mgmt_interface" tests="1" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="first_test" status="run" time="0" classname="TB_cli_dml_mgmt_interface" MaxHeap_bytes="0" usec_time="71"/>
+  </testsuite>
+  <testsuite name="TB_clear_cable" tests="12" failures="12" disabled="0" errors="0" time="0.008">
+    <testcase name="test_clear_cable_modem_node_delete_no_cable_modems_on_node" status="run" time="0.001" classname="TB_clear_cable" MaxHeap_bytes="0" usec_time="935">
+      <failure message="/root/package/test/unit-test/TB_clear_cable.cpp:49 Expected: (expected_status) != (status), actual: 0 vs 0" type="">
+      </failure>
+    </testcase>
+  </testsuite>
+</testsuites>

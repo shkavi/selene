@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<robot>
+  <suite name="suite">
+    <suite name="suite1">
+      <test name="test1">
+        <status status="pass" endtime="20180826 04:43:02.239" critical="yes" starttime="20180826 04:43:00.939">
+        </status>
+      </test>
+      <test name="test2">
+        <status status="fail" endtime="20180826 04:43:02.239" critical="yes" starttime="20180826 04:43:00.939">
+        </status>
+      </test>
+    </suite>
+    <suite name="suite2">
+      <suite name="suite1">
+        <test name="test1">
+          <status status="pass" endtime="20180826 04:43:02.239" critical="yes" starttime="20180826 04:43:00.939">
+          </status>
+        </test>
+        <test name="test2">
+          <status status="fail" endtime="20180826 04:43:02.239" critical="yes" starttime="20180826 04:43:00.939">
+          </status>
+        </test>
+      </suite>
+    </suite>
+  </suite>
+</robot>
